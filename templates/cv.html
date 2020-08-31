@@ -1,0 +1,151 @@
+{% extends 'base.html' %}
+
+{% block title %}resume page of yiwen {% endblock %}
+
+{% block content %}
+
+
+
+<html lang="en">
+
+<body>
+<div class="wrapper">
+	<div class="sidebar-wrapper">
+		<div class="profile-container">
+			<img class="profile" src="/static/assets/images/picture2.jpg" alt="" />
+			<h1 class="name">YIWEN GE</h1>
+			<h3 class="tagline">Computer Science Student</h3>
+		</div><!--//profile-container-->
+
+		<div class="contact-container container-block">
+			<ul class="list-unstyled contact-list">
+				<li class="email"><i class="fa fa-envelope"></i><a href="mailto: ntxfgyw@163.com">ntxfgyw@163.com</a></li>
+				<li class="phone"><i class="fa fa-phone"></i><a href="tel:+44 07542297475">+44 07542297475</a></li>
+				<li class="facebook"><i class="fa fa-facebook"></i><a href="#">YIWEN GE</a></li>
+        <li class="wechat"><i class="fa fa-wechat"></i><a href="#">geyiwendada</a></li>
+				<li class="github"><i class="fa fa-github"></i><a href="#">github.com/GEYIWEN</a></li>
+			</ul>
+		</div><!--//contact-container-->
+		<div class="education-container container-block">
+			<h2 class="container-block-title">Education</h2>
+			<div class="item">
+				<h4 class="degree">BSc in Computer Science</h4>
+				<h5 class="meta">University of Birmingham</h5>
+				<div class="time">2018 - 2021</div>
+			</div><!--//item-->
+		</div><!--//education-container-->
+
+		<div class="languages-container container-block">
+			<h2 class="container-block-title">Languages</h2>
+			<ul class="list-unstyled interests-list">
+				<li>Chinese <span class="lang-desc">(Native)</span></li>
+				<li>English <span class="lang-desc">(Professional)</span></li>
+			</ul>
+		</div><!--//interests-->
+
+		<div class="interests-container container-block">
+			<h2 class="container-block-title">Interests</h2>
+			<ul class="list-unstyled interests-list">
+				<li>Riding</li>
+				<li>Swimming</li>
+				<li>Cooking</li>
+			</ul>
+		</div><!--//interests-->
+
+	</div><!--//sidebar-wrapper-->
+
+	<div class="main-wrapper">
+
+		<section class="section summary-section">
+			<h2 class="section-title"><span class="icon-holder"><i class="fa fa-user"></i></span>Career Profile</h2>
+			<div class="summary">
+				<p>I am a junior now. I have participated in several on-campus projects and completed an internship during the summer vacation. They will be shown below. I will use my vacation time to participate in more computer science related internships so that I can accumulate more experience for my future career. </p>
+			</div><!--//summary-->
+		</section><!--//section-->
+
+		<section class="section experiences-section">
+			<h2 class="section-title"><span class="icon-holder"><i class="fa fa-briefcase"></i></span>Experiences</h2>
+
+			<div class="item">
+				<div class="meta">
+					<div class="upper-row">
+						<h3 class="job-title">Algorithm Engineer</h3>
+						<div class="time">2020.7.28 - 2020.8.28</div>
+					</div><!--//upper-row-->
+					<div class="company">Shining3D, HangZhou, China</div>
+				</div><!--//meta-->
+				<div class="details">
+					<p>I had an internship in the artificial intelligence research department of this company in summer holiday. The topic we're working on is 3D Tooth Instance Segmentation on Point Cloud. This topic belongs to the field of deep learning and computer vision in artificial intelligence. </p>
+					<p>I was mainly responsible for segmentation and classification of original point cloud data and labeling data. These data will be used as training data set and validation data set for training convolutional neural networks. At the same time, we will evaluate the training effect of the convolutional neural network in order to optimize the algorithm. And finally, our team's research paper will be published in IEEE TRANSACTIONS ON MULTIMEDIA.</p>
+				</div><!--//details-->
+			</div><!--//item-->
+		</section><!--//section-->
+
+		<section class="section projects-section">
+			<h2 class="section-title"><span class="icon-holder"><i class="fa fa-archive"></i></span>Projects</h2>
+			<div class="intro">
+				<p>I will list the small projects completed in the school curriculum below and give a brief introduction.</p>
+			</div><!--//intro-->
+			<div class="item">
+				<span class="project-title"><a href="#hook">LEGO EV3 Robot</a></span> - <span class="project-tagline">Use the java language to programme the LEGO EV3 robot, in order to make it to avoid obstacles and find the end point of maze, and finally return to the starting point from the end point.</span>
+
+			</div><!--//item-->
+			<div class="item">
+				<span class="project-title"><a href="#">Software Engineering Group Project</a></span> -
+				<span class="project-tagline">A software engineering group project which is in order to design a software closely related to the health problems.And our group finally completed the 56-page final document and got a high score of 18 points(total score is 20). As a member of group, I was mainly responsible for completing the preliminary survey of relevant software market requirements and completing the design of a activity diagram, two component diagrams and a deployment diagram.</span>
+			</div><!--//item-->
+			<div class="item">
+				<span class="project-title"><a href="#">Game Project</a></span> - <span class="project-tagline">A team project of making a 2D game by using the java language, javaFX and mysql language with JDBC(java database connectivity). We use the java language to write the underlying game logic, game rendering and network connection code. JavaFX is used to build the game UI interface. And the mysql language is used to store game data and user information.</span>
+			</div><!--//item-->
+		</section><!--//section-->
+
+		<section class="skills-section section">
+			<h2 class="section-title"><span class="icon-holder"><i class="fa fa-rocket"></i></span>Skills &amp; Proficiency</h2>
+			<div class="skillset">
+				<div class="item">
+					<h3 class="level-title">Java &amp; JavaFX</h3>
+					<div class="progress level-bar">
+						<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div><!--//item-->
+
+				<div class="item">
+					<h3 class="level-title">Python &amp; Django</h3>
+					<div class="progress level-bar">
+						<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div><!--//item-->
+
+				<div class="item">
+					<h3 class="level-title">Javascript &amp; jQuery</h3>
+					<div class="progress level-bar">
+						<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 98%" aria-valuenow="98" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div><!--//item-->
+
+				<div class="item">
+					<h3 class="level-title">HTML5 &amp; CSS</h3>
+					<div class="progress level-bar">
+							<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div><!--//item-->
+
+				<div class="item">
+					<h3 class="level-title">C &amp; C++</h3>
+					<div class="progress level-bar">
+						<div class="progress-bar theme-progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+				</div><!--//item-->
+
+			</div>
+		</section><!--//skills-section-->
+
+	</div><!--//main-body-->
+</div>
+
+</body>
+</html>
+
+
+
+{% endblock %}
